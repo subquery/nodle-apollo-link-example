@@ -2,6 +2,9 @@
   "name": "nodle-example",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
   "license": "MIT",
   "dependencies": {
     "@apollo/client": "^3.8.4",
