@@ -433,10 +433,10 @@
     "@noble/hashes" "~1.3.0"
     "@scure/base" "~1.1.0"
 
-"@subql/apollo-links@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@subql/apollo-links/-/apollo-links-1.0.8.tgz#9fc8158f4645b2269cec44c65d3f979ffa39a67a"
-  integrity sha512-ydyP6UXU7JkLlwpG4vI7F5YDmsTPMETyQll5CXHj3Q98r+plM9qpH8bcgDf0YCvG4i3yY4rEJ1xOho/ACjKOnw==
+"@subql/apollo-links@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.npmjs.org/@subql/apollo-links/-/apollo-links-1.1.0.tgz#d5ac17ed1ae2a8a63209eaf5b3916ecdfe0e45bf"
+  integrity sha512-rOuQLp/4umCrhzxiAKnK0b+OK1Xs4OKm0szU81dwSj3oAEdEluSxlPc8jk2X9CbzW09bh6TZKS4W+x/Uj9QFWA==
   dependencies:
     "@metamask/eth-sig-util" "5.1.0"
     apollo-link-error "^1.1.13"
@@ -444,6 +444,7 @@
     buffer "^6.0.3"
     cross-fetch "^4.0.0"
     ethers "^5.6.8"
+    js-base64 "^3.7.5"
     jwt-decode "^3.1.2"
     lru-cache "^10.0.1"
 
@@ -719,6 +720,11 @@ is-hex-prefixed@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-hex-prefixed/-/is-hex-prefixed-1.0.0.tgz#7d8d37e6ad77e5d127148913c573e082d777f554"
   integrity sha512-WvtOiug1VFrE9v1Cydwm+FnXd3+w9GaeVUss5W4v/SLy3UW00vP+6iNF2SdnfiBoLy4bTqVdkftNGTUeOFVsbA==
+
+js-base64@^3.7.5:
+  version "3.7.5"
+  resolved "https://registry.npmjs.org/js-base64/-/js-base64-3.7.5.tgz#21e24cf6b886f76d6f5f165bfcd69cc55b9e3fca"
+  integrity sha512-3MEt5DTINKqfScXKfJFrRbxkrnk2AxPWGBL/ycjz4dK8iqiSJ06UxD8jh8xuh6p10TX4t2+7FsBYVxxQbMg+qA==
 
 js-sha3@0.8.0:
   version "0.8.0"
